@@ -17,10 +17,10 @@ int status = WL_IDLE_STATUS; // WiFi連線狀態初始值
 // 設定MQTT參數
 char mqttServer[] = "mqttgo.io";           // MQTT服務器位址
 char clientId[] = "";                      // MQTT客戶端ID
-char publishTopic[] = "niubmte/iotclass/"; // MQTT發布主題
-char HumTopic[] = "YourTopic/class/Hum";   // MQTT發布濕度的主題
+char publishTopic[] = "niubmte/iotclass/組別";
 char publishPayload[] = "TEST";            // MQTT發布的消息內容
-char subscribeTopic[] = "niubmte/iotclass/";// MQTT訂閱的主題
+char subscribeTopic[] = "niubmte/iotclass/ctrl/組別";
+
 
 String msgStr = "";                        // 暫存MQTT消息的字符串
 
